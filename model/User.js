@@ -1,10 +1,11 @@
 const mysql = require("mysql");
 
 const cnn = mysql.createConnection({
-    host: "3306",
+    host: "localhost",
     user: "root",
     password: "6431",
     database: "signup",
+    port: "3306",
 });
 // Mysql 연결 실패시 에러 throw
 cnn.connect(function (err) {

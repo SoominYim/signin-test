@@ -24,7 +24,7 @@ app.use(express.urlencoded({ extended: true }));
 // 우리가 전달받을 bodyParser는 회원가입때 인풋에 적은 것들이 될 것이다
 app.use(bodyParser.json());
 
-const router = require("/routes");
+const router = require("./routes");
 app.use("/", router);
 
 // 이건 없어도 상관없음 서버가 열렸을때 이 콘솔을 찍어주겠다는
