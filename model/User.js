@@ -1,5 +1,7 @@
 const mysql = require("mysql");
 
+// 2023-07-22 수정
+// 안에 내용 수정됐어 확인하고 변경해
 const cnn = mysql.createConnection({
     host: "localhost",
     user: "root",
